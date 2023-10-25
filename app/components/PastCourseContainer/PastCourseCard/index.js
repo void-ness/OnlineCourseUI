@@ -4,7 +4,7 @@ import UserIcon from "@/app/assets/userImage.svg";
 export default function PastCourseCard({ course }) {
     return (
         <div className="flex flex-col rounded-xl bg-slate-50 p-4 drop-shadow-2xl">
-            <Image src={`/PastCourseThumbnails/${course.imgName}`} className="" alt="Past Course Thumbnail" width={400} height={200} />
+            <Image src={`/PastCourseThumbnails/${course.imgName}`} className="w-auto h-auto" alt="Past Course Thumbnail" width={350} height={200} />
 
             <span className="font-medium text-xl my-2">{course.title}</span>
 
