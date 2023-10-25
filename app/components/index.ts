@@ -11,3 +11,6 @@ export * from "./LandingPage/CourseCategoryCard"
 
 export * from "./LandingPage/PastCourseContainer"
 export * from "./LandingPage/CourseBanner"
+
+// Course Page
+export * from "./CoursePage/OfferCard"
