@@ -1,6 +1,13 @@
-export * from "./Header"
-export * from "./Footer"
+export * from "./common/Header"
+export * from "./common/Footer"
 
-export * from "./PastCourseContainer"
-export * from "./SectionHeading"
-export * from "./CourseCateogoryContainer"
+export * from "./common/SectionHeading"
+export * from "./common/SectionFooter"
+export * from "./common/SectionContainer"
+
+export * from "./common/CardContainer"
+export * from "./common/CourseCard"
+export * from "./LandingPage/CourseCategoryCard"
+
+export * from "./LandingPage/PastCourseContainer"
+export * from "./LandingPage/CourseBanner"

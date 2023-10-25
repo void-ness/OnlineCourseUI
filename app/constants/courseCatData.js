@@ -12,39 +12,39 @@ export const courseCatDetails = [
         icon: "fas fa-desktop"
     },
     {
-        name: "Design",
+        name: "Development",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod",
-        color: "#49BBBD",
+        color: "#9DCCFF",
         icon: "fas fa-paintbrush"
     },
     {
-        name: "Development",
+        name: "Business",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod",
-        color: "#5B72EE",
-        icon: "fas fa-desktop"
+        color: "#00CBB8",
+        icon: "fas fa-briefcase"
     },
     {
-        name: "Design",
+        name: "Marketing",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod",
-        color: "#49BBBD",
-        icon: "fas fa-paintbrush"
+        color: "#F48C06",
+        icon: "fab fa-slideshare"
     },
     {
-        name: "Development",
+        name: "Photography",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod",
-        color: "#5B72EE",
-        icon: "fas fa-desktop"
+        color: "#EE645B",
+        icon: "fas fa-book"
     },
     {
-        name: "Design",
+        name: "Acting",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod",
-        color: "#49BBBD",
-        icon: "fas fa-paintbrush"
+        color: "#252641",
+        icon: "fas fa-film"
     },
     {
-        name: "Development",
+        name: "Business",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod",
-        color: "#5B72EE",
-        icon: "fas fa-desktop"
-    }
+        color: "#00CBB8",
+        icon: "fas fa-briefcase"
+    },
 ];

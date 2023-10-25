@@ -34,7 +34,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/course/page.js",
-    "app/components/Header/index.js"
+    "app/components/common/Header/index.js"
   ],
   "exclude": [
     "node_modules"
