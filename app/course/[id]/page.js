@@ -16,17 +16,17 @@ export default function CoursePageDetails() {
     return (
         <div>
             <div className="relative">
-                <Image src={CourseDetailsHeader} alt="Course Details" className="w-full h-[35rem] object-cover object-center" />
-                <div className="w-full h-[35rem] bg-black/25 absolute top-0 left-0" />
+                <Image src={CourseDetailsHeader} alt="Course Details" className="w-full h-[20rem] md:h-[35rem] object-cover object-center" />
+                <div className="w-full h-[20rem] md:h-[35rem] bg-black/25 absolute top-0 left-0" />
             </div>
 
             <SectionContainer bgColor={"#FFFFFF"}>
-                <div className="flex justify-between relative">
-                    <div className="w-3/5">
+                <div className="flex flex-col-reverse md:flex-row justify-between relative">
+                    <div className="w-full md:w-3/5">
                         <CourseReviewContainer />
                     </div>
 
-                    <div className="w-2/5 absolute right-0 -top-72">
+                    <div className="md:w-2/5 md:absolute right-0 -top-72">
                         <CourseDetailsContainer />
                     </div>
                 </div>

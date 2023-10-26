@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function CourseDetailsContainer() {
     return (
-        <div className="p-5 w-2/3 mx-auto flex flex-col bg-white rounded-xl">
-            <div className="relative">
+        <div className="p-5 md:w-2/3 mx-auto flex flex-col bg-white rounded-xl">
+            <div className="relative hidden md:block">
                 <Image src={CourseDetailsHeader} alt="Course Details Header" className="w-full h-48" />
                 <div className="bg-black/30 w-full h-48 absolute top-0 left-0"></div>
             </div>

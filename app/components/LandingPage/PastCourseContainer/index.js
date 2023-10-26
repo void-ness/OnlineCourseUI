@@ -24,7 +24,7 @@ const PastCourseContainer = () => {
                 Welcome back, ready for your next lesson?
             </SectionHeading>
 
-            <div className="flex justify-between">
+            <div className="flex md:flex-row flex-col justify-between">
                 {courseDetails.map((course, ind) => {
                     return (<PastCourseCard key={ind} course={course} />)
                 })}

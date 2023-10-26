@@ -2,14 +2,14 @@ import { CardContainer, CourseBanner, SectionContainer, SectionFooter, SectionHe
 import PastCourseContainer from "./components/LandingPage/PastCourseContainer";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
-import { faPaintBrush, faDesktop, faBriefcase, faBook, faFilm } from "@fortawesome/free-solid-svg-icons";
+import { faPaintBrush, faDesktop, faBriefcase, faBook, faFilm, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { faSlideshare } from "@fortawesome/free-brands-svg-icons";
 
 import { courseData } from "./constants/courseData";
 import { courseCatDetails } from "./constants/courseCatData";
 
-library.add(faPaintBrush, faDesktop, faClock, faBriefcase, faSlideshare, faBook, faFilm);
+library.add(faPaintBrush, faDesktop, faClock, faBriefcase, faSlideshare, faBook, faFilm, faChevronDown);
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
 
       <SectionContainer bgColor={"#FFFFFF"}>
         <SectionHeading link="">Choose favourite course from top category</SectionHeading>
-        <div className="grid grid-cols-4 gap-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-20 px-4 md:px-0">
           {courseCatDetails.map((course, ind) => {
             return (<CourseCategoryCard course={course} key={ind} />)
           })}

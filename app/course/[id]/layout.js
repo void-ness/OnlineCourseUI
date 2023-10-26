@@ -16,8 +16,8 @@ export default function CourseLayout({ children }) {
             </SectionContainer>
 
             <SectionContainer bgColor={"#FFFFFF"}>
-                <div className="flex items-center">
-                    <div className="w-1/2 px-10 py-10">
+                <div className="flex flex-col md:flex-row items-center">
+                    <div className="w-full md:w-1/2 px-10 py-10">
                         <div className="relative">
                             <span className="text-2xl font-medium z-10 relative">
                                 Everything you can do in a physical classroom, <span className="text-[#00CBB8]">you can do with TOTC</span>
@@ -37,11 +37,11 @@ export default function CourseLayout({ children }) {
 
                     </div>
 
-                    <div className="px-10 w-1/2">
+                    <div className="px-5 md:px-10 w-full md:w-1/2">
                         <div className="relative">
                             <Image src={TeacherTeaching} className="w-auto h-auto rounded-3xl z-10 relative" alt="A teacher teaching" />
-                            <div className="w-44 h-44 absolute bg-green-300 -bottom-3 -right-3 z-0 rounded-lg" />
-                            <div className="w-24 h-24 absolute bg-blue-400 -top-3 -left-3 z-0 rounded-lg" />
+                            <div className="w-20 h-20 md:w-44 md:h-44 absolute bg-green-300 -bottom-3 -right-3 z-0 rounded-lg" />
+                            <div className="w-12 h-12 md:w-24 md:h-24 absolute bg-blue-400 -top-3 -left-3 z-0 rounded-lg" />
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ export default function CourseLayout({ children }) {
 
             <SectionContainer bgColor={"#FFFFFF"}>
                 <SectionHeading link={"See all"}>Top Education offers and deals are listed here</SectionHeading>
-                <div className="grid grid-cols-3 gap-24 mb-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-24 mb-5">
                     {offerDetails.map((offer, ind) => {
                         return (<OfferCard key={ind} offer={offer} />)
                     })}
