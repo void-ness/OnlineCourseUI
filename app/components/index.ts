@@ -14,3 +14,7 @@ export * from "./LandingPage/CourseBanner"
 
 // Course Page
 export * from "./CoursePage/OfferCard"
+export * from "./CoursePage/CourseReviewContainer"
+export * from "./CoursePage/RatingBox"
+export * from "./CoursePage/RatingItem"
+export * from "./CoursePage/UserReviewCard"
